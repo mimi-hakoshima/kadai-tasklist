@@ -8,7 +8,7 @@ public class DBUtil {
     private static final String PERSISTENCE_UNIT_NAME = "tasklist";
     private static EntityManagerFactory emf;
 
-    public static EntityManager createEnttitymanager(){
+    public static EntityManager createEntitymanager(){
         return _getEntityManagerFactory().createEntityManager();
     }
 
